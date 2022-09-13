@@ -15,6 +15,12 @@
       "matches": ["*://*.youtube.com/*"],
       "js": ["main.js"]
     }
-  ]
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "extension.goodbye-seekbar@sweshelo.jp"
+    }
+  }
 
 }
