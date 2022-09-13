@@ -7,7 +7,7 @@
   "description": "Hide seekbar on YouTube",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "64": "icon.png"
   },
 
   "content_scripts": [
