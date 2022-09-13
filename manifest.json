@@ -19,7 +19,7 @@
 
   "applications": {
     "gecko": {
-      "id": "extension.goodbye-seekbar@sweshelo.jp"
+      "id": "addon.goodbye-seekbar@sweshelo.jp"
     }
   }
 
