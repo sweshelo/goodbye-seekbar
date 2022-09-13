@@ -5,9 +5,8 @@ const toggleSeekbar = (visibility) => {
 };
 
 document.addEventListener('keydown', (e)=>{
-  console.log(e.key)
-  if (!e.repeat && e.key == 's') toggleSeekbar('block')
-  if (!e.repeat && e.key == 'h') toggleSeekbar('none')
+  const visibility = document.getElementsByClassName("ytp-chrome-bottom")[0].style.display == 'none' ? 'block' : 'none'
+  if (!e.repeat && e.key == 's') toggleSeekbar(visibility)
 });
 
 toggleSeekbar('none');
